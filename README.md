@@ -40,12 +40,16 @@ This project was generated with [Laravel](https://github.com/laravel/laravel) ve
 
 - php artisan pasport:install --force 
 
-- php artisan serve
+- npm install && npm run dev
+
+- php artisan serve & npm run watch
 
 - http://127.0.0.1:8000/api/auth/signin 
 
 - "email":"rraharjo.rudy@gmail.com" & "password": "secret"
 
+
+jika kesulitan dalam proses migrate database import database langsung saja file _bukumasadepan.sql terletak di folder project
 
 ## link development local / test link api in postman
 
