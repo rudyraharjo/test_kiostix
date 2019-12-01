@@ -1,0 +1,93 @@
+// // Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// // Variables
+// @import 'variables';
+
+// // Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+
+
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+// Vuetify
+@import '~vuetify/dist/vuetify.min.css';
+
+
+.app-page-title {
+    background:rgba(243, 240, 240, 0.4);
+}
+
+.app-page-title {
+    padding: 30px;
+    position: relative;
+}
+
+.app-page-title .page-title-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.app-page-title .page-title-heading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.app-page-title .page-title-icon {
+    font-size: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    padding: .83333rem;
+    margin: 0 30px 0 0;
+    background: #fff;
+    -webkit-box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,.03), 0 0.9375rem 1.40625rem rgba(4,9,20,.03), 0 0.25rem 0.53125rem rgba(4,9,20,.05), 0 0.125rem 0.1875rem rgba(4,9,20,.03);
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,.03), 0 0.9375rem 1.40625rem rgba(4,9,20,.03), 0 0.25rem 0.53125rem rgba(4,9,20,.05), 0 0.125rem 0.1875rem rgba(4,9,20,.03);
+    border-radius: .25rem;
+    width: 60px;
+    height: 60px;
+}
+
+.app-page-title .page-title-subheading {
+    padding: 3px 0 0;
+    font-size: .94rem;
+    opacity: .6;
+}
+
+.app-page-title .page-title-actions {
+    margin-left: auto;
+}
+
+
+.disabled {
+    color: grey;
+    pointer-events: none;
+}
